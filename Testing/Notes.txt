@@ -1,0 +1,21 @@
+Changes to the rev A PCB:
+ * 1nF Y1 capacitor between isolated GNDs avoids some weird noise 'glitches' at higher frequencies mainly on the AMC3302 (other values probably fine)
+ * 1M bias resistors from each input to GND avoid clipping of tops of sine, probably due to bias
+ * Adding 47uF HXD at input or output caps didn't help.
+ * Opamp resistors change from 10k to 4k7 and the capacitors from 1nF to 100pF to increase frequency response
+ * Actual opamp is OPA2376
+ 
+At 5V input, typ current draw is 30mA
+
+Shunt diff probe AMC3302:
+ Fitted with 0R01 shunt LRMAM1206-R01FT5 (Element14 # 207-9442)
+ Minimum recommended current with 10mR shunt = 3mA which results in about 1.2mV at output.
+ Measured 3dB point (100mA on 0R01 shunt) = 220 kHz but see note below
+ At higher freq the noise beats with the measurement so you get weirdness (note: adding 47uF or bigger Y1 doesnt help)
+ Noise at output with shorted input much worse so dont do that (?)
+ 
+Voltage diff probe AMC3330:
+ 470K is the Resistor Today part
+ Minimum recommended voltage on 1:1 input =  which results in at output.
+ Measured 3dB point (1Vpp input) = 330kHz
+ The weirdness noted for AMC3302 is also present for AMC3330 if you have a small signal
