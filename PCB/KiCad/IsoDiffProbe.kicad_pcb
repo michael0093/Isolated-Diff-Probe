@@ -81,6 +81,8 @@
 			(outputdirectory "")
 		)
 	)
+	(property "ENGINEER" "Michael")
+	(property "SHEETTOTAL" "1")
 	(net 0 "")
 	(net 1 "ISOLDO")
 	(net 2 "VIN")
@@ -584,7 +586,7 @@
 			)
 		)
 		(property "Value" "10pF"
-			(at -0.3937 3.0353 270)
+			(at -0.3937 3.0353 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -960,7 +962,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at -2.9337 -0.4953 270)
+			(at -2.9337 -0.4953 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1144,7 +1146,7 @@
 			)
 		)
 		(property "Value" "11k"
-			(at -2.9337 -0.4953 270)
+			(at -2.9337 -0.4953 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1312,7 +1314,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at -3.1877 -0.9017 270)
+			(at -3.1877 -0.9017 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1923,7 +1925,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at -2.9337 -0.4953 270)
+			(at -2.9337 -0.4953 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2215,7 +2217,7 @@
 			(uuid "963f95c4-1d5c-4a2f-84e8-e2b7abdda3c5")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:MMB0207"
+	(footprint "E General.PcbLib:MMB0207"
 		(layer "F.Cu")
 		(uuid "1b4ab222-b29e-4194-af2e-cf96f17a8f1c")
 		(at 125.7261 118.7411)
@@ -2294,7 +2296,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at -3.8481 -1.5367 270)
+			(at -3.8481 -1.5367 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2400,7 +2402,7 @@
 			(uuid "bb8fe006-1c4e-45de-abbc-8d750cb7083d")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "1d4c6d8a-3786-4dba-b5fc-99e4590147fa")
 		(at 159.8811 106.3461 90)
@@ -2587,7 +2589,7 @@
 			(uuid "4a8b98ed-c12c-429c-a160-11e9866f675a")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "1fd179ff-fae2-4c4f-a48d-a8b0b51aeab9")
 		(at 112.1461 90.7811)
@@ -2720,7 +2722,7 @@
 			(uuid "d0905ae2-3a98-405c-a47a-998ce74f9d59")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:MMB0207"
+	(footprint "E General.PcbLib:MMB0207"
 		(layer "F.Cu")
 		(uuid "272ded09-89cb-4ad2-9a75-d9bc14747664")
 		(at 117.5261 126.3411)
@@ -2799,7 +2801,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at -3.8481 -1.5367 270)
+			(at -3.8481 -1.5367 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2905,7 +2907,7 @@
 			(uuid "035d5bde-1e2a-4621-ade9-8bdf3ed08572")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "296eea71-a3e5-4fab-bc12-673a6f8f6d87")
 		(at 112.1461 98.4011)
@@ -3485,7 +3487,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at -2.93369 -0.4953 270)
+			(at -2.93369 -0.4953 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3673,7 +3675,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at -0.3937 3.0353 270)
+			(at -0.3937 3.0353 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3777,7 +3779,7 @@
 			(uuid "3534a6ff-4150-45d6-ba1f-ca4f2ef15101")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:MMB0207"
+	(footprint "E General.PcbLib:MMB0207"
 		(layer "F.Cu")
 		(uuid "33a6c0bc-554e-48e3-bc42-a3a7658967ec")
 		(at 117.5261 106.0411)
@@ -3849,7 +3851,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at -3.8481 -1.5367 270)
+			(at -3.8481 -1.5367 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3955,7 +3957,7 @@
 			(uuid "865ef1fe-a0e5-4871-a10c-d1ef42217b4c")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "33b205b9-3007-4f1a-8f5a-8820a5dcb013")
 		(at 173.5061 95.1411)
@@ -4318,7 +4320,7 @@
 			(uuid "861c49c3-3e48-427f-bed7-7fdc9430583d")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "3e9301d3-fe24-4ffd-ac91-3ba1bf8451ab")
 		(at 159.8811 101.2661 90)
@@ -4479,7 +4481,7 @@
 			(uuid "b4800f9c-fbdf-49ca-a3fe-85ff6a0d7201")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "44fbfbc8-cfbf-4590-a79e-ab980c677554")
 		(at 173.5061 110.3811 90)
@@ -4654,7 +4656,7 @@
 			(uuid "5573f62c-8bd1-4df1-874d-e707aff053fe")
 		)
 	)
-	(footprint "Genesis_PCB_Footprints.PcbLib:DW0016B"
+	(footprint "E GF.PcbLib:DW0016B"
 		(layer "F.Cu")
 		(uuid "45847122-93cd-47b3-ba4f-e8008cf22663")
 		(at 151.3481 98.5471)
@@ -5024,7 +5026,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at -3.1877 -0.9017 270)
+			(at -3.1877 -0.9017 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5361,7 +5363,7 @@
 			(uuid "bb0ba940-9d4b-433b-b2d5-84e6632a6203")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:MMB0207"
+	(footprint "E General.PcbLib:MMB0207"
 		(layer "F.Cu")
 		(uuid "4c933019-c403-4d2d-a71f-4cd9849c9e9b")
 		(at 125.7261 126.3411)
@@ -5454,7 +5456,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at -3.8481 -1.5367 270)
+			(at -3.8481 -1.5367 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5750,7 +5752,7 @@
 			(uuid "d84dc926-a1a8-40b7-8cfd-7057524f4ab0")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:MMB0207"
+	(footprint "E General.PcbLib:MMB0207"
 		(layer "F.Cu")
 		(uuid "56ec69f4-a454-4409-819b-21f63f73c55e")
 		(at 117.5261 118.7411)
@@ -5848,7 +5850,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at -3.8481 -1.5367 270)
+			(at -3.8481 -1.5367 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5954,7 +5956,7 @@
 			(uuid "74ead279-3fa0-47c7-b680-9e92d07ecd4b")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "5a6ecf89-b0e5-4d8a-89b0-f6b8c8f9a411")
 		(at 138.5621 93.5751 -90)
@@ -6527,7 +6529,7 @@
 		)
 		(fp_arc
 			(start 7.492 -3.69999)
-			(mid 7.85121 -3.5512)
+			(mid 7.851207 -3.5512)
 			(end 8 -3.19199)
 			(stroke
 				(width 0.1)
@@ -6538,7 +6540,7 @@
 		)
 		(fp_arc
 			(start 1.508 -3.69999)
-			(mid 1.864371 -3.554017)
+			(mid 1.864368 -3.554016)
 			(end 2.015937 -3.199988)
 			(stroke
 				(width 0.1)
@@ -6549,7 +6551,7 @@
 		)
 		(fp_arc
 			(start 6.984063 -3.199988)
-			(mid 7.135629 -3.554017)
+			(mid 7.135625 -3.554023)
 			(end 7.492 -3.69999)
 			(stroke
 				(width 0.1)
@@ -7031,7 +7033,7 @@
 			(uuid "e4e287aa-c799-427c-b775-b342c5047911")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "5ff45410-d3ec-4e63-a750-a8973e4dab57")
 		(at 112.1461 93.3211)
@@ -7143,7 +7145,7 @@
 			(uuid "bc52e6ef-f721-4490-a654-cffc8affe593")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "607f1cd4-2726-46a3-8f3f-1060a1e7b53b")
 		(at 173.5061 100.2211)
@@ -7321,7 +7323,7 @@
 			(uuid "3865e8d0-1f97-48de-b4a2-97307044dac7")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "618b9171-a675-4426-80b5-542ec9104bd4")
 		(at 112.1461 126.3411 90)
@@ -7633,7 +7635,7 @@
 			(uuid "68bdabb4-6216-43af-a2d5-51d64940afc7")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:MMB0207"
+	(footprint "E General.PcbLib:MMB0207"
 		(layer "F.Cu")
 		(uuid "6503f832-506a-4c1f-95fb-c7ce0cbf9f15")
 		(at 117.5261 111.1411)
@@ -7726,7 +7728,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at -3.8481 -1.5367 270)
+			(at -3.8481 -1.5367 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7832,7 +7834,7 @@
 			(uuid "18556a44-f9fc-4760-bcc7-a1b7532d8451")
 		)
 	)
-	(footprint "EDMI Altium Connectors.PcbLib:IDC20"
+	(footprint "E Connectors.PcbLib:IDC20"
 		(layer "F.Cu")
 		(uuid "68d58c31-ef31-4b00-87e9-9ca768e1ed30")
 		(at 130.9421 85.9551 -90)
@@ -8408,7 +8410,7 @@
 			(uuid "c2432ebc-aef8-4687-8ff3-f19688c4f93d")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "6a6a9f75-7ee7-40a1-9b37-0e7c604f5f4e")
 		(at 112.1461 100.9411)
@@ -8549,7 +8551,7 @@
 			(uuid "06cf0771-bcc3-423e-9319-3eaa16272405")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "6c9b31c3-d08a-451a-9e31-9a3a798bc53c")
 		(at 112.1461 118.7211 90)
@@ -8671,7 +8673,7 @@
 			(uuid "fd8605ea-d793-453f-9120-33d971e9b5b2")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "7d4416ea-26e3-4fa0-b9e2-f8c9ac049800")
 		(at 112.1461 85.7011)
@@ -9070,7 +9072,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at -2.9337 -0.4953 270)
+			(at -2.9337 -0.4953 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9174,7 +9176,7 @@
 			(uuid "8a36a943-a224-452d-a54d-8fcb7fb3906c")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "82e8c2ad-d699-4f96-9aba-ba4146101a79")
 		(at 138.5621 91.0351 -90)
@@ -9531,7 +9533,7 @@
 			(uuid "9c843493-046b-445c-9ad3-79cdeca49d0e")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:SO-8"
+	(footprint "E General.PcbLib:SO-8"
 		(layer "F.Cu")
 		(uuid "8ad1c6b0-8a48-4a3e-80eb-29a610b06f53")
 		(at 163.23611 113.6291 90)
@@ -9760,7 +9762,7 @@
 			(uuid "9726d0a7-c8a5-4748-840c-b72c8eca1cd5")
 		)
 	)
-	(footprint "Genesis_PCB_Footprints.PcbLib:LED-0603"
+	(footprint "E GF.PcbLib:LED-0603"
 		(layer "F.Cu")
 		(uuid "8dd6a4ec-3458-45c4-8b7a-82b6452b9a13")
 		(at 164.0511 95.3161 180)
@@ -10345,7 +10347,7 @@
 			(uuid "c6e1d747-b7b6-4042-91a0-b956cdcb0ad6")
 		)
 	)
-	(footprint "Genesis_PCB_Footprints.PcbLib:LED-0603"
+	(footprint "E GF.PcbLib:LED-0603"
 		(layer "F.Cu")
 		(uuid "9568f904-7a26-4a62-a217-e770da21cd8a")
 		(at 164.05109 97.6661 180)
@@ -11166,7 +11168,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at -2.9337 -0.4953 270)
+			(at -2.9337 -0.4953 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11306,7 +11308,7 @@
 			)
 		)
 		(property "Value" "PBY201209T-601Y-N"
-			(at -0.6985 3.2639 270)
+			(at -0.6985 3.2639 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11679,7 +11681,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at -0.3937 3.0353 270)
+			(at -0.3937 3.0353 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11980,7 +11982,7 @@
 			(uuid "5f9989f7-8b92-4212-a800-c99f416a1492")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "b1fb04a5-65d1-4200-9022-7a63d7d78c4d")
 		(at 112.1461 83.1611)
@@ -12152,7 +12154,7 @@
 			)
 		)
 		(property "Value" "NF"
-			(at -0.3937 3.0353 270)
+			(at -0.3937 3.0353 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -12554,7 +12556,7 @@
 			)
 		)
 		(property "Value" "10uF / 25V"
-			(at -0.4953 3.2639 270)
+			(at -0.4953 3.2639 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -13079,7 +13081,7 @@
 			(uuid "9bb60783-5096-4717-a65f-5ac4b4e39243")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "bd40c198-cb12-405a-89b2-08f267724807")
 		(at 159.8811 103.8061 90)
@@ -13261,7 +13263,7 @@
 			(uuid "0c69faa5-bf21-4c89-95ce-02cdeedf69fd")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "bfcf81f6-ef9c-43b0-9968-782f524f10a9")
 		(at 173.5061 115.4611 90)
@@ -13448,7 +13450,7 @@
 			(uuid "fe233157-f440-4fe3-b2bf-0502d3a5e407")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "c3b6ee0e-e50e-40ed-9d5b-e3530b89fbc0")
 		(at 138.5621 96.1151 -90)
@@ -13703,7 +13705,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at -3.1877 -0.9017 270)
+			(at -3.1877 -0.9017 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -14358,7 +14360,7 @@
 			)
 		)
 		(property "Value" "NF"
-			(at -0.3937 3.0353 270)
+			(at -0.3937 3.0353 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -14690,7 +14692,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at -3.1877 -0.9017 270)
+			(at -3.1877 -0.9017 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -14920,7 +14922,7 @@
 			)
 		)
 		(property "Value" "NF"
-			(at -0.3937 3.0353 270)
+			(at -0.3937 3.0353 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15024,7 +15026,7 @@
 			(uuid "4148d1b4-e1d4-4716-9769-7e9aeba152ab")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "f8343bb7-50aa-4825-8069-b126182500e3")
 		(at 112.1461 111.1011 90)
@@ -15336,7 +15338,7 @@
 			(uuid "c7abef64-0778-429a-a9d1-ab6b579dc985")
 		)
 	)
-	(footprint "EDMI Altium General Footprints.PcbLib:TP"
+	(footprint "E General.PcbLib:TP"
 		(layer "F.Cu")
 		(uuid "ff1ad947-c60d-4a1a-b671-04610adb4565")
 		(at 112.1461 106.0211)
@@ -15546,7 +15548,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at -0.3937 3.0353 270)
+			(at -0.3937 3.0353 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -15894,8 +15896,8 @@
 		(uuid "aacb0521-c5f4-4f5a-9e62-5282630ec921")
 	)
 	(gr_rect
-		(start 180.3011 116.4661)
-		(end 180.9261 114.2161)
+		(start 180.3011 114.2161)
+		(end 180.9261 116.4661)
 		(stroke
 			(width 0)
 			(type default)
@@ -15906,8 +15908,8 @@
 		(uuid "cf9f3152-eab4-4ffa-a08d-3be85a3faae5")
 	)
 	(gr_rect
-		(start 180.3761 107.8161)
-		(end 180.9761 105.5661)
+		(start 180.3761 105.5661)
+		(end 180.9761 107.8161)
 		(stroke
 			(width 0)
 			(type default)
@@ -16017,8 +16019,8 @@
 		(uuid "e406daa8-6669-4065-aa26-7b032f41f1ad")
 	)
 	(gr_rect
-		(start 187.05111 114.8161)
-		(end 180.65111 114.2161)
+		(start 180.65111 114.2161)
+		(end 187.05111 114.8161)
 		(stroke
 			(width 0)
 			(type default)
@@ -16041,8 +16043,8 @@
 		(uuid "024aef9c-650e-4666-9665-17ccac784345")
 	)
 	(gr_rect
-		(start 187.05111 114.8161)
-		(end 180.65111 114.2161)
+		(start 180.65111 114.2161)
+		(end 187.05111 114.8161)
 		(stroke
 			(width 0)
 			(type default)

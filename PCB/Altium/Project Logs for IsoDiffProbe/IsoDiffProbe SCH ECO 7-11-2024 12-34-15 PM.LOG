@@ -1,0 +1,299 @@
+Removed Parameter =EDMI_PN:UTLC272ID from Part U2
+Removed Parameter =EDMI_PN:UTLC272ID from Part U2
+Removed Parameter =Mfr1:TI from Part U2
+Removed Parameter =Mfr1:TI from Part U2
+Removed Parameter =Mfr2:* from Part U2
+Removed Parameter =Mfr2:* from Part U2
+Removed Parameter =Mfr3:* from Part U2
+Removed Parameter =Mfr3:* from Part U2
+Removed Parameter =Mfr4:* from Part U2
+Removed Parameter =Mfr4:* from Part U2
+Removed Parameter =Mfr_PN1:TLC272ID from Part U2
+Removed Parameter =Mfr_PN1:TLC272ID from Part U2
+Removed Parameter =Mfr_PN2:* from Part U2
+Removed Parameter =Mfr_PN2:* from Part U2
+Removed Parameter =Mfr_PN3:* from Part U2
+Removed Parameter =Mfr_PN3:* from Part U2
+Removed Parameter =Mfr_PN4:* from Part U2
+Removed Parameter =Mfr_PN4:* from Part U2
+Removed Parameter =Type:SMD from Part U2
+Removed Parameter =Type:SMD from Part U2
+Removed Parameter =Value:TLC272ID from Part U2
+Removed Parameter =Value:TLC272ID from Part U2
+Removed Parameter Alternate 1:XKB U262-061N-4BVC10 from Part J1
+Removed Parameter Alternate 2:(0603) Sunlord UPZ1608U601-1R3TF from Part L1
+Removed Parameter Alternate 2:HRO TYPE-C-31-M-17 from Part J1
+Removed Parameter Alternate 3:(0805) Wurth 742792040 from Part L1
+Removed Parameter Alternate:(0603) Wurth 742792651 from Part L1
+Removed Parameter EDMI_PN:RSM447MELF from Part R15
+Removed Parameter EDMI_PN:RSM447MELF from Part R23
+Removed Parameter EDMI_PN:RSM447MELF from Part R26
+Removed Parameter EDMI_PN:RSM447MELF from Part R27
+Removed Parameter EDMI_PN:RSM447MELF from Part R31
+Removed Parameter EDMI_PN:RSM447MELF from Part R32
+Removed Parameter Fit:* from Part R15
+Removed Parameter Fit:* from Part R23
+Removed Parameter Fit:* from Part R26
+Removed Parameter Fit:* from Part R27
+Removed Parameter Fit:* from Part R31
+Removed Parameter Fit:* from Part R32
+Removed Parameter Mfr1:Viking from Part R15
+Removed Parameter Mfr1:Viking from Part R23
+Removed Parameter Mfr1:Viking from Part R26
+Removed Parameter Mfr1:Viking from Part R27
+Removed Parameter Mfr1:Viking from Part R31
+Removed Parameter Mfr1:Viking from Part R32
+Removed Parameter Mfr2:Viking from Part R15
+Removed Parameter Mfr2:Viking from Part R23
+Removed Parameter Mfr2:Viking from Part R26
+Removed Parameter Mfr2:Viking from Part R27
+Removed Parameter Mfr2:Viking from Part R31
+Removed Parameter Mfr2:Viking from Part R32
+Removed Parameter Mfr3:Vishay from Part R15
+Removed Parameter Mfr3:Vishay from Part R23
+Removed Parameter Mfr3:Vishay from Part R26
+Removed Parameter Mfr3:Vishay from Part R27
+Removed Parameter Mfr3:Vishay from Part R31
+Removed Parameter Mfr3:Vishay from Part R32
+Removed Parameter Mfr_PN1:CSRA0207FTDT4703 from Part R15
+Removed Parameter Mfr_PN1:CSRA0207FTDT4703 from Part R23
+Removed Parameter Mfr_PN1:CSRA0207FTDT4703 from Part R26
+Removed Parameter Mfr_PN1:CSRA0207FTDT4703 from Part R27
+Removed Parameter Mfr_PN1:CSRA0207FTDT4703 from Part R31
+Removed Parameter Mfr_PN1:CSRA0207FTDT4703 from Part R32
+Removed Parameter Mfr_PN2:CSRV0207FTDT4703 from Part R15
+Removed Parameter Mfr_PN2:CSRV0207FTDT4703 from Part R23
+Removed Parameter Mfr_PN2:CSRV0207FTDT4703 from Part R26
+Removed Parameter Mfr_PN2:CSRV0207FTDT4703 from Part R27
+Removed Parameter Mfr_PN2:CSRV0207FTDT4703 from Part R31
+Removed Parameter Mfr_PN2:CSRV0207FTDT4703 from Part R32
+Removed Parameter Mfr_PN3:MMB0207MC4703F from Part R15
+Removed Parameter Mfr_PN3:MMB0207MC4703F from Part R23
+Removed Parameter Mfr_PN3:MMB0207MC4703F from Part R26
+Removed Parameter Mfr_PN3:MMB0207MC4703F from Part R27
+Removed Parameter Mfr_PN3:MMB0207MC4703F from Part R31
+Removed Parameter Mfr_PN3:MMB0207MC4703F from Part R32
+Removed Parameter Note:CSRA / CSRV / MMB0207 from Part R15
+Removed Parameter Note:CSRA / CSRV / MMB0207 from Part R23
+Removed Parameter Note:CSRA / CSRV / MMB0207 from Part R26
+Removed Parameter Note:CSRA / CSRV / MMB0207 from Part R27
+Removed Parameter Note:CSRA / CSRV / MMB0207 from Part R31
+Removed Parameter Note:CSRA / CSRV / MMB0207 from Part R32
+Removed Parameter Spec:1%, 50ppm, Critical Part from Part R15
+Removed Parameter Spec:1%, 50ppm, Critical Part from Part R23
+Removed Parameter Spec:1%, 50ppm, Critical Part from Part R26
+Removed Parameter Spec:1%, 50ppm, Critical Part from Part R27
+Removed Parameter Spec:1%, 50ppm, Critical Part from Part R31
+Removed Parameter Spec:1%, 50ppm, Critical Part from Part R32
+Removed Parameter Subsection:Measurement:Voltage Measurement from Part R15
+Removed Parameter Subsection:Measurement:Voltage Measurement from Part R23
+Removed Parameter Subsection:Measurement:Voltage Measurement from Part R26
+Removed Parameter Subsection:Measurement:Voltage Measurement from Part R27
+Removed Parameter Subsection:Measurement:Voltage Measurement from Part R31
+Removed Parameter Subsection:Measurement:Voltage Measurement from Part R32
+Removed Parameter Type:SMD Component from Part C1
+Removed Parameter Type:SMD Component from Part C2
+Removed Parameter Type:SMD Component from Part C3
+Removed Parameter Type:SMD Component from Part C4
+Removed Parameter Type:SMD Component from Part C5
+Removed Parameter Type:SMD Component from Part C6
+Removed Parameter Type:SMD Component from Part C7
+Removed Parameter Type:SMD Component from Part C8
+Removed Parameter Type:SMD Component from Part C9
+Removed Parameter Type:SMD Component from Part C10
+Removed Parameter Type:SMD Component from Part C11
+Removed Parameter Type:SMD Component from Part C12
+Removed Parameter Type:SMD Component from Part C13
+Removed Parameter Type:SMD Component from Part C14
+Removed Parameter Type:SMD Component from Part C15
+Removed Parameter Type:SMD Component from Part C16
+Removed Parameter Type:SMD Component from Part C17
+Removed Parameter Type:SMD Component from Part C18
+Removed Parameter Type:SMD Component from Part C19
+Removed Parameter Type:SMD Component from Part J1
+Removed Parameter Type:SMD Component from Part L1
+Removed Parameter Type:SMD Component from Part R1
+Removed Parameter Type:SMD Component from Part R2
+Removed Parameter Type:SMD Component from Part R3
+Removed Parameter Type:SMD Component from Part R4
+Removed Parameter Type:SMD Component from Part R5
+Removed Parameter Type:SMD Component from Part R6
+Removed Parameter Type:SMD Component from Part R7
+Removed Parameter Type:SMD Component from Part R8
+Removed Parameter Type:SMD Component from Part R9
+Removed Parameter Type:SMD Component from Part R10
+Removed Parameter Type:SMD Component from Part R11
+Removed Parameter Type:SMD Component from Part R12
+Removed Parameter Type:SMD Component from Part R13
+Removed Parameter Type:SMD Component from Part R14
+Removed Parameter Type:SMD Component from Part R16
+Removed Parameter Type:SMD Component from Part R17
+Removed Parameter Type:SMD Component from Part R18
+Removed Parameter Type:SMD Component from Part R19
+Removed Parameter Type:SMD Component from Part R20
+Removed Parameter Type:SMD Component from Part R21
+Removed Parameter Type:SMD Component from Part R22
+Removed Parameter Type:SMD Component from Part R24
+Removed Parameter Type:SMD Component from Part R25
+Removed Parameter Type:SMD Component from Part R28
+Removed Parameter Type:SMD Component from Part R29
+Removed Parameter Type:SMD Component from Part R30
+Removed Parameter Type:SMD from Part R15
+Removed Parameter Type:SMD from Part R23
+Removed Parameter Type:SMD from Part R26
+Removed Parameter Type:SMD from Part R27
+Removed Parameter Type:SMD from Part R31
+Removed Parameter Type:SMD from Part R32
+Removed Parameter Type:T/H from Part P1
+Removed Parameter Value:470k from Part R15
+Removed Parameter Value:470k from Part R23
+Removed Parameter Value:470k from Part R26
+Removed Parameter Value:470k from Part R27
+Removed Parameter Value:470k from Part R31
+Removed Parameter Value:470k from Part R32
+Removed Parameter Variants:All from Part C1
+Removed Parameter Variants:All from Part C2
+Removed Parameter Variants:All from Part C3
+Removed Parameter Variants:All from Part C4
+Removed Parameter Variants:All from Part C5
+Removed Parameter Variants:All from Part C6
+Removed Parameter Variants:All from Part C7
+Removed Parameter Variants:All from Part C8
+Removed Parameter Variants:All from Part C9
+Removed Parameter Variants:All from Part C10
+Removed Parameter Variants:All from Part C11
+Removed Parameter Variants:All from Part C12
+Removed Parameter Variants:All from Part C13
+Removed Parameter Variants:All from Part C14
+Removed Parameter Variants:All from Part C15
+Removed Parameter Variants:All from Part C16
+Removed Parameter Variants:All from Part C17
+Removed Parameter Variants:All from Part C18
+Removed Parameter Variants:All from Part C19
+Removed Parameter Variants:All from Part J1
+Removed Parameter Variants:All from Part L1
+Removed Parameter Variants:All from Part R1
+Removed Parameter Variants:All from Part R2
+Removed Parameter Variants:All from Part R3
+Removed Parameter Variants:All from Part R4
+Removed Parameter Variants:All from Part R5
+Removed Parameter Variants:All from Part R6
+Removed Parameter Variants:All from Part R7
+Removed Parameter Variants:All from Part R8
+Removed Parameter Variants:All from Part R9
+Removed Parameter Variants:All from Part R10
+Removed Parameter Variants:All from Part R11
+Removed Parameter Variants:All from Part R12
+Removed Parameter Variants:All from Part R13
+Removed Parameter Variants:All from Part R14
+Removed Parameter Variants:All from Part R16
+Removed Parameter Variants:All from Part R17
+Removed Parameter Variants:All from Part R18
+Removed Parameter Variants:All from Part R19
+Removed Parameter Variants:All from Part R20
+Removed Parameter Variants:All from Part R21
+Removed Parameter Variants:All from Part R22
+Removed Parameter Variants:All from Part R24
+Removed Parameter Variants:All from Part R25
+Removed Parameter Variants:All from Part R28
+Removed Parameter Variants:All from Part R29
+Removed Parameter Variants:All from Part R30
+Added Parameter JLCPCB Part #= to Part D1
+Added Parameter JLCPCB Part #= to Part D2
+Added Parameter JLCPCB Part #= to Part J2
+Added Parameter JLCPCB Part #= to Part P1
+Added Parameter JLCPCB Part #= to Part R15
+Added Parameter JLCPCB Part #= to Part R23
+Added Parameter JLCPCB Part #= to Part R26
+Added Parameter JLCPCB Part #= to Part R27
+Added Parameter JLCPCB Part #= to Part R31
+Added Parameter JLCPCB Part #= to Part R32
+Added Parameter JLCPCB Part #= to Part TP1
+Added Parameter JLCPCB Part #= to Part TP2
+Added Parameter JLCPCB Part #= to Part TP3
+Added Parameter JLCPCB Part #= to Part TP4
+Added Parameter JLCPCB Part #= to Part TP5
+Added Parameter JLCPCB Part #= to Part TP6
+Added Parameter JLCPCB Part #= to Part TP7
+Added Parameter JLCPCB Part #= to Part TP8
+Added Parameter JLCPCB Part #= to Part TP9
+Added Parameter JLCPCB Part #= to Part TP10
+Added Parameter JLCPCB Part #= to Part TP11
+Added Parameter JLCPCB Part #= to Part TP12
+Added Parameter JLCPCB Part #= to Part TP13
+Added Parameter JLCPCB Part #= to Part TP14
+Added Parameter JLCPCB Part #= to Part TP15
+Added Parameter JLCPCB Part #= to Part TP16
+Added Parameter JLCPCB Part #= to Part TP17
+Added Parameter JLCPCB Part #= to Part TP18
+Added Parameter JLCPCB Part #= to Part TP19
+Added Parameter JLCPCB Part #= to Part TP20
+Added Parameter JLCPCB Part #= to Part U1
+Added Parameter JLCPCB Part #= to Part U2
+Added Parameter JLCPCB Part #= to Part U2
+Added Parameter Manufacturer= to Part D1
+Added Parameter Manufacturer= to Part D2
+Added Parameter Manufacturer= to Part J2
+Added Parameter Manufacturer= to Part P1
+Added Parameter Manufacturer= to Part TP1
+Added Parameter Manufacturer= to Part TP2
+Added Parameter Manufacturer= to Part TP3
+Added Parameter Manufacturer= to Part TP4
+Added Parameter Manufacturer= to Part TP5
+Added Parameter Manufacturer= to Part TP6
+Added Parameter Manufacturer= to Part TP7
+Added Parameter Manufacturer= to Part TP8
+Added Parameter Manufacturer= to Part TP9
+Added Parameter Manufacturer= to Part TP10
+Added Parameter Manufacturer= to Part TP11
+Added Parameter Manufacturer= to Part TP12
+Added Parameter Manufacturer= to Part TP13
+Added Parameter Manufacturer= to Part TP14
+Added Parameter Manufacturer= to Part TP15
+Added Parameter Manufacturer= to Part TP16
+Added Parameter Manufacturer= to Part TP17
+Added Parameter Manufacturer= to Part TP18
+Added Parameter Manufacturer= to Part TP19
+Added Parameter Manufacturer= to Part TP20
+Added Parameter Manufacturer= to Part U1
+Added Parameter Manufacturer= to Part U2
+Added Parameter Manufacturer= to Part U2
+Added Parameter Manufacturer=Vishay to Part R15
+Added Parameter Manufacturer=Vishay to Part R23
+Added Parameter Manufacturer=Vishay to Part R26
+Added Parameter Manufacturer=Vishay to Part R27
+Added Parameter Manufacturer=Vishay to Part R31
+Added Parameter Manufacturer=Vishay to Part R32
+Added Parameter MPN=MMB0207MC4703F to Part R15
+Added Parameter MPN=MMB0207MC4703F to Part R23
+Added Parameter MPN=MMB0207MC4703F to Part R26
+Added Parameter MPN=MMB0207MC4703F to Part R27
+Added Parameter MPN=MMB0207MC4703F to Part R31
+Added Parameter MPN=MMB0207MC4703F to Part R32
+Added Parameter MPN= to Part D1
+Added Parameter MPN= to Part D2
+Added Parameter MPN= to Part J2
+Added Parameter MPN= to Part P1
+Added Parameter MPN= to Part TP1
+Added Parameter MPN= to Part TP2
+Added Parameter MPN= to Part TP3
+Added Parameter MPN= to Part TP4
+Added Parameter MPN= to Part TP5
+Added Parameter MPN= to Part TP6
+Added Parameter MPN= to Part TP7
+Added Parameter MPN= to Part TP8
+Added Parameter MPN= to Part TP9
+Added Parameter MPN= to Part TP10
+Added Parameter MPN= to Part TP11
+Added Parameter MPN= to Part TP12
+Added Parameter MPN= to Part TP13
+Added Parameter MPN= to Part TP14
+Added Parameter MPN= to Part TP15
+Added Parameter MPN= to Part TP16
+Added Parameter MPN= to Part TP17
+Added Parameter MPN= to Part TP18
+Added Parameter MPN= to Part TP19
+Added Parameter MPN= to Part TP20
+Added Parameter MPN= to Part U1
+Added Parameter MPN= to Part U2
+Added Parameter MPN= to Part U2

@@ -1,0 +1,48 @@
+Change Component DesignItemId : Designator=P1 Old DesignItemId=Header 10X2 New DesignItemId=
+Change Component DesignItemId : Designator=R7 Old DesignItemId=ResSMD New DesignItemId=
+Change Component DesignItemId : Designator=R8 Old DesignItemId=ResSMD New DesignItemId=
+Change Component DesignItemId : Designator=U2 Old DesignItemId=TLC272ID New DesignItemId=
+Change Component DesignItemId : Designator=TP1 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP2 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP3 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP4 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP5 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP6 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP7 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP8 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP9 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP10 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP11 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP12 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP13 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP14 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP15 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP16 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP17 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP18 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP19 Old DesignItemId=TP New DesignItemId=
+Change Component DesignItemId : Designator=TP20 Old DesignItemId=TP New DesignItemId=
+Change Component Library : Designator=P1 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP1 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP2 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP3 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP4 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP5 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP6 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP7 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP8 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP9 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP10 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP11 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP12 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP13 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP14 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP15 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP16 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP17 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP18 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP19 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=TP20 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=U2 Old Library=EDMI Altium6 Approved Devices.SchLib New Library=E.SchLib
+Change Component Library : Designator=R7 Old Library=Genesis_SCH_Symbols.SchLib New Library=E.SchLib
+Change Component Library : Designator=R8 Old Library=Genesis_SCH_Symbols.SchLib New Library=E.SchLib

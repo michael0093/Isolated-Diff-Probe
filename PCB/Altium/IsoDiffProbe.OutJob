@@ -186,9 +186,9 @@ Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=30393701|ViewY=19340551|LookAtX=32312992|LookAtY=38400592|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=4.38577717139482E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\Users\Michael\Desktop\Projects\Isolated-Diff-Probe\PCB\Altium\IsoDiffProbe.PcbDoc
 
 [PublishSettings]
-OutputFilePath2=C:\Users\Michael\Desktop\Projects\Isolated-Diff-Probe\PCB\Altium\.PDF
+OutputFilePath2=C:\Users\michaelc\Documents\Projects\Isolated-Diff-Probe\PCB\Altium\.\IsoDiffProbe.pdf
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\Michael\Desktop\Projects\Isolated-Diff-Probe\PCB\Altium\
+OutputBasePath2=.\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -265,7 +265,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\Michael\Desktop\Projects\Isolated-Diff-Probe\PCB\Altium\.PDF
+RelativeOutputPath2=C:\Users\michaelc\Documents\Projects\Isolated-Diff-Probe\PCB\Altium\.\IsoDiffProbe.pdf
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
