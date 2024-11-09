@@ -3,7 +3,7 @@ Changes to the rev A PCB:
  * 1M bias resistors from each input to GND avoid clipping of tops of sine, probably due to bias
  * Adding 47uF HXD at input or output caps didn't help.
  * Opamp resistors change from 10k to 4k7 and the capacitors from 1nF to 100pF to increase frequency response
- * Actual opamp is OPA2376
+ * Actual opamp is OPA2376 (thats what was on hand)
  
 At 5V input, typ current draw is 30mA
 
@@ -15,7 +15,6 @@ Shunt diff probe AMC3302:
  Noise at output with shorted input much worse so dont do that (?)
  
 Voltage diff probe AMC3330:
- 470K is the Resistor Today part
- Minimum recommended voltage on 1:1 input =  which results in at output.
+ 470K on physical sample is the Resistor Today part
  Measured 3dB point (1Vpp input) = 330kHz
  The weirdness noted for AMC3302 is also present for AMC3330 if you have a small signal
