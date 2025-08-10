@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d85d6a19-2e6e-41fd-aa7c-35ef8eb5d84b")
 	(paper "A3")
 	(title_block
@@ -93,7 +93,8 @@
 				)
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -110,6 +111,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:GND_BAR"
 			(power)
@@ -195,7 +197,8 @@
 				)
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -212,6 +215,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:HGND_BAR"
 			(power)
@@ -297,7 +301,8 @@
 				)
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "HGND"
 						(effects
 							(font
@@ -314,6 +319,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:ISOPWR_BAR"
 			(power)
@@ -399,7 +405,8 @@
 				)
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "ISOPWR"
 						(effects
 							(font
@@ -416,6 +423,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:VIN_BAR"
 			(power)
@@ -501,7 +509,8 @@
 				)
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VIN"
 						(effects
 							(font
@@ -518,6 +527,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_AMC330X"
 			(exclude_from_sim no)
@@ -599,132 +609,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 -6.35 180)
-					(length 7.62)
-					(name "OUTN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 -3.81 180)
-					(length 7.62)
-					(name "OUTP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 -1.27 180)
-					(length 7.62)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 1.27 180)
-					(length 7.62)
-					(name "LDO_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 3.81 180)
-					(length 7.62)
-					(name "DIAG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 6.35 180)
-					(length 7.62)
-					(name "DCDC_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 24.13 8.89 180)
-					(length 7.62)
-					(name "DCDC_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -859,6 +743,132 @@
 					)
 				)
 				(pin passive line
+					(at 24.13 8.89 180)
+					(length 7.62)
+					(name "DCDC_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 6.35 180)
+					(length 7.62)
+					(name "DCDC_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 3.81 180)
+					(length 7.62)
+					(name "DIAG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 1.27 180)
+					(length 7.62)
+					(name "LDO_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -1.27 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -3.81 180)
+					(length 7.62)
+					(name "OUTP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -6.35 180)
+					(length 7.62)
+					(name "OUTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 24.13 -8.89 180)
 					(length 7.62)
 					(name "GND"
@@ -877,6 +887,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_CAP-STD-SM"
 			(exclude_from_sim no)
@@ -937,18 +948,6 @@
 			(symbol "root_0_CAP-STD-SM_1_0"
 				(polyline
 					(pts
-						(xy 0.254 -1.778) (xy 4.826 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 -0.762) (xy 4.826 -0.762)
 					)
 					(stroke
@@ -961,7 +960,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.778) (xy 2.54 -2.54)
+						(xy 0.254 -1.778) (xy 4.826 -1.778)
 					)
 					(stroke
 						(width 0.254)
@@ -974,6 +973,18 @@
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1020,6 +1031,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_Header 10X2"
 			(exclude_from_sim no)
@@ -1109,16 +1121,70 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -12.7 180)
+					(at -5.08 -5.08 0)
 					(length 5.08)
-					(name "10"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 0 0)
@@ -1145,24 +1211,6 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -17.78 0)
 					(length 5.08)
 					(name "13"
@@ -1173,24 +1221,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -17.78 180)
-					(length 5.08)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 0 0)
@@ -1217,24 +1247,6 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -20.32 180)
-					(length 5.08)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -22.86 0)
 					(length 5.08)
 					(name "17"
@@ -1245,24 +1257,6 @@
 						)
 					)
 					(number "17"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -22.86 180)
-					(length 5.08)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
 						(effects
 							(font
 								(size 0 0)
@@ -1307,42 +1301,6 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -25.4 180)
-					(length 5.08)
-					(name "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "4"
@@ -1353,24 +1311,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 0 0)
@@ -1397,24 +1337,6 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 15.24 -10.16 180)
 					(length 5.08)
 					(name "8"
@@ -1433,16 +1355,106 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at 15.24 -12.7 180)
 					(length 5.08)
-					(name "9"
+					(name "10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -20.32 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -22.86 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -25.4 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 0 0)
@@ -1451,6 +1463,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_PBY201209T-601Y-N"
 			(exclude_from_sim no)
@@ -1510,20 +1523,8 @@
 			)
 			(symbol "root_0_PBY201209T-601Y-N_1_0"
 				(arc
-					(start 1.27 -1.27)
+					(start 0 -2.54)
 					(mid 0.372 -1.642)
-					(end 0 -2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.54)
-					(mid 2.168 -1.642)
 					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
@@ -1534,8 +1535,8 @@
 					)
 				)
 				(arc
-					(start 3.81 -1.27)
-					(mid 2.912 -1.642)
+					(start 1.27 -1.27)
+					(mid 2.168 -1.642)
 					(end 2.54 -2.54)
 					(stroke
 						(width 0.254)
@@ -1546,8 +1547,8 @@
 					)
 				)
 				(arc
-					(start 5.08 -2.54)
-					(mid 4.708 -1.642)
+					(start 2.54 -2.54)
+					(mid 2.912 -1.642)
 					(end 3.81 -1.27)
 					(stroke
 						(width 0.254)
@@ -1558,8 +1559,8 @@
 					)
 				)
 				(arc
-					(start 6.35 -1.27)
-					(mid 5.452 -1.642)
+					(start 3.81 -1.27)
+					(mid 4.708 -1.642)
 					(end 5.08 -2.54)
 					(stroke
 						(width 0.254)
@@ -1570,8 +1571,8 @@
 					)
 				)
 				(arc
-					(start 7.62 -2.54)
-					(mid 7.248 -1.642)
+					(start 5.08 -2.54)
+					(mid 5.452 -1.642)
 					(end 6.35 -1.27)
 					(stroke
 						(width 0.254)
@@ -1582,8 +1583,8 @@
 					)
 				)
 				(arc
-					(start 8.89 -1.27)
-					(mid 7.992 -1.642)
+					(start 6.35 -1.27)
+					(mid 7.248 -1.642)
 					(end 7.62 -2.54)
 					(stroke
 						(width 0.254)
@@ -1594,9 +1595,21 @@
 					)
 				)
 				(arc
-					(start 10.16 -2.54)
-					(mid 9.788 -1.642)
+					(start 7.62 -2.54)
+					(mid 7.992 -1.642)
 					(end 8.89 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -1.27)
+					(mid 9.788 -1.642)
+					(end 10.16 -2.54)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1642,6 +1655,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_RES-SM"
 			(exclude_from_sim no)
@@ -1749,6 +1763,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_ResSMD"
 			(exclude_from_sim no)
@@ -1856,6 +1871,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_SMA_SMD"
 			(exclude_from_sim no)
@@ -1945,24 +1961,6 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 -1.27 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -8.89 1.27 0)
 					(length 5.08)
 					(name "GND"
@@ -1980,7 +1978,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_TLC272ID"
 			(exclude_from_sim no)
@@ -2053,24 +2070,6 @@
 						(color 255 242 204 1)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 7.62)
-					(name "1OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 7.62)
@@ -2108,6 +2107,24 @@
 					)
 				)
 				(pin power_in line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -2.54 -5.08 90)
 					(length 2.54)
 					(name "GND"
@@ -2125,17 +2142,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "VDD"
+				(pin output line
+					(at 10.16 0 180)
+					(length 7.62)
+					(name "1OUT"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "8"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2214,6 +2231,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_TP"
 			(exclude_from_sim no)
@@ -2291,6 +2309,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_mirrored_CAP-STD-SM"
 			(exclude_from_sim no)
@@ -2351,18 +2370,6 @@
 			(symbol "root_0_mirrored_CAP-STD-SM_1_0"
 				(polyline
 					(pts
-						(xy -2.54 -1.778) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 0) (xy -2.54 -0.762)
 					)
 					(stroke
@@ -2375,7 +2382,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.254 -1.778) (xy -4.826 -1.778)
+						(xy -2.54 -1.778) (xy -2.54 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -2388,6 +2395,18 @@
 				(polyline
 					(pts
 						(xy -0.254 -0.762) (xy -4.826 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.778) (xy -4.826 -1.778)
 					)
 					(stroke
 						(width 0.254)
@@ -2434,6 +2453,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_0_mirrored_USB-C_6pin"
 			(exclude_from_sim no)
@@ -2505,42 +2525,6 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -1.27 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 6.35 0)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -12.7 13.97 0)
 					(length 5.08)
 					(name "VBUS"
@@ -2559,16 +2543,34 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 -3.81 0)
+					(at -12.7 11.43 0)
 					(length 5.08)
-					(name "GND"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B12"
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 6.35 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2595,16 +2597,34 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 11.43 0)
+					(at -12.7 -1.27 0)
 					(length 5.08)
-					(name "VBUS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B9"
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -3.81 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2685,6 +2705,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_1_CAP-STD-SM"
 			(exclude_from_sim no)
@@ -2769,7 +2790,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 0.254) (xy 1.778 4.826)
+						(xy 1.778 2.54) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -2781,7 +2802,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 2.54) (xy 2.54 2.54)
+						(xy 1.778 0.254) (xy 1.778 4.826)
 					)
 					(stroke
 						(width 0.254)
@@ -2828,6 +2849,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_1_CAP-STD-TH"
 			(exclude_from_sim no)
@@ -2912,10 +2934,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 0.254) (xy 1.778 4.826)
+						(xy 1.778 2.54) (xy 2.54 2.54)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -2924,10 +2946,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 2.54) (xy 2.54 2.54)
+						(xy 1.778 0.254) (xy 1.778 4.826)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type solid)
 					)
 					(fill
@@ -2971,6 +2993,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_1_RES-SM"
 			(exclude_from_sim no)
@@ -3042,24 +3065,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 10.16 270)
 					(length 2.54)
 					(name ""
@@ -3077,7 +3082,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_1_TP"
 			(exclude_from_sim no)
@@ -3155,6 +3179,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_1_mirrored_CAP-STD-SM"
 			(exclude_from_sim no)
@@ -3215,7 +3240,7 @@
 			(symbol "root_1_mirrored_CAP-STD-SM_1_0"
 				(polyline
 					(pts
-						(xy -1.778 0.254) (xy -1.778 4.826)
+						(xy -1.778 2.54) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -3227,7 +3252,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 2.54) (xy -2.54 2.54)
+						(xy -1.778 0.254) (xy -1.778 4.826)
 					)
 					(stroke
 						(width 0.254)
@@ -3262,24 +3287,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
 					(name ""
@@ -3297,7 +3304,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_1_mirrored_TP"
 			(exclude_from_sim no)
@@ -3375,6 +3401,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_2_RES-SM"
 			(exclude_from_sim no)
@@ -3446,24 +3473,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name ""
@@ -3481,7 +3490,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_2_TP"
 			(exclude_from_sim no)
@@ -3559,6 +3587,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_2_mirrored_ResSMD"
 			(exclude_from_sim no)
@@ -3666,6 +3695,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_2_mirrored_TLC272ID"
 			(exclude_from_sim no)
@@ -3736,24 +3766,6 @@
 					(fill
 						(type color)
 						(color 255 242 204 1)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 7.62)
-					(name "1OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -3828,6 +3840,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 7.62)
+					(name "1OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "root_2_mirrored_TLC272ID_2_0"
 				(polyline
@@ -3845,24 +3875,6 @@
 					)
 				)
 				(pin input line
-					(at -15.24 -2.54 0)
-					(length 7.62)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -15.24 2.54 0)
 					(length 7.62)
 					(name "-"
@@ -3873,6 +3885,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3899,6 +3929,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_2_mirrored_TP"
 			(exclude_from_sim no)
@@ -3976,6 +4007,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_3_LED"
 			(exclude_from_sim no)
@@ -4060,26 +4092,15 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.27) (xy 1.778 -1.27)
+						(xy 1.27 1.27) (xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.254)
+						(width -0.0001)
 						(type solid)
+						(color 0 0 0 1)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.254) (xy 2.032 -0.254)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -4108,15 +4129,26 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27)
+						(xy 2.286 -1.27) (xy 1.778 -1.27)
 					)
 					(stroke
-						(width -0.0001)
+						(width 0.254)
 						(type solid)
-						(color 0 0 0 1)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.254) (xy 2.032 -0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -4156,6 +4188,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_3_RES-SM"
 			(exclude_from_sim no)
@@ -4263,6 +4296,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_3_TP"
 			(exclude_from_sim no)
@@ -4340,6 +4374,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_3_mirrored_CAP-STD-SM"
 			(exclude_from_sim no)
@@ -4424,7 +4459,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 -2.54) (xy 2.54 -2.54)
+						(xy 1.778 -0.254) (xy 1.778 -4.826)
 					)
 					(stroke
 						(width 0.254)
@@ -4436,7 +4471,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 -0.254) (xy 1.778 -4.826)
+						(xy 1.778 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -4483,6 +4518,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "IsoDiffProbe-altium-import:root_3_mirrored_TP"
 			(exclude_from_sim no)
@@ -4560,7 +4596,385 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 347.218 289.56 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f40110e-a8b5-469d-b9cd-edade09ed092")
+	)
+	(text "Date:"
+		(exclude_from_sim no)
+		(at 294.64 289.56 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "13ff0ad0-9d6d-46b9-8cb6-84925383f532")
+	)
+	(text "AMC3330: +/- 1.00Vin, Gain=2"
+		(exclude_from_sim no)
+		(at 193.04 130.6322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "16cf5ed9-8861-4168-a55a-3c71c8889ae7")
+	)
+	(text "fc = 1.61MHz"
+		(exclude_from_sim no)
+		(at 38.1 116.6622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cbd0d64-ea7d-4ce1-8d87-ef35b9e51c56")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 300.99 289.56 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "22bad64a-516f-451b-b492-7b1c099784e6")
+	)
+	(text "Sheet"
+		(exclude_from_sim no)
+		(at 335.28 289.56 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "536cc155-39a5-411a-a76a-a1b34dbc0a44")
+	)
+	(text "5V 30mA"
+		(exclude_from_sim no)
+		(at 314.96 148.4122 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ba48f1e-d798-41a9-abd6-6ef1a2903b75")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 345.186 286.004 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d03bf88-7f44-42d0-bc4d-cfe6f8910fe7")
+	)
+	(text "Size:"
+		(exclude_from_sim no)
+		(at 294.64 285.75 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f28875e-8764-4c48-9654-453200f793f0")
+	)
+	(text "1000:1  Zin=1.88M"
+		(exclude_from_sim no)
+		(at 38.1 220.8022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d3e9bc-6eb1-4c47-a9ff-8463300696d1")
+	)
+	(text "fc = 1.49MHz"
+		(exclude_from_sim no)
+		(at 38.1 152.2222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "76264e57-7cb3-41c5-924d-25506f60c738")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 300.99 286.004 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f0db493-71ac-4934-8185-8bb3678a225a")
+	)
+	(text "100:1  Zin=950k"
+		(exclude_from_sim no)
+		(at 38.1 185.2422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "91134f6f-c769-4943-a391-4c4e166915a5")
+	)
+	(text "fc = 916kHz"
+		(exclude_from_sim no)
+		(at 38.1 223.3422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "960f64d5-25c8-4caa-822d-1026afcdd36d")
+	)
+	(text "Mod for Rev A"
+		(exclude_from_sim no)
+		(at 204.724 176.53 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "98d575c3-6302-4983-8cf1-054c5c680f6c")
+	)
+	(text "fc = 1.60MHz"
+		(exclude_from_sim no)
+		(at 38.1 187.7822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a03f5206-8a81-4b5f-945e-0ba00e18adea")
+	)
+	(text "This drawing has been superseded!\nModifying rev A to rev B is easy, see rev B drawing instead"
+		(exclude_from_sim no)
+		(at 295.148 268.732 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "aa6cb6f9-2011-4870-ad5c-996086be3ac7")
+	)
+	(text "2x mods for Rev A"
+		(exclude_from_sim no)
+		(at 145.034 173.5582 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b472fb8b-4921-416c-813a-c36685dc8ac7")
+	)
+	(text "10:1  Zin=113k"
+		(exclude_from_sim no)
+		(at 38.1 149.6822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b58503a5-452b-4703-a0e2-19a180c11ef9")
+	)
+	(text "Shunt Input"
+		(exclude_from_sim no)
+		(at 38.1 78.5622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdcfb620-77d3-4ef9-9634-be3ee8deb1f3")
+	)
+	(text "Revision:"
+		(exclude_from_sim no)
+		(at 335.28 285.75 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf0b2451-8307-40cb-ac41-f3da2ac8f1a6")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 341.376 289.56 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4297c85-fbf6-4e43-9593-5aae6ef0a95d")
+	)
+	(text "Signal GND =/= Power GND!"
+		(exclude_from_sim no)
+		(at 331.47 194.1322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc67b6ad-a7cc-43cf-91da-2aad00f3c56a")
+	)
+	(text "PWR"
+		(exclude_from_sim no)
+		(at 258.064 122.2502 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdfb685a-c0a0-4557-b531-9122c4402b6e")
+	)
+	(text "AMC3302: +/- 50mVin, Gain=41"
+		(exclude_from_sim no)
+		(at 193.04 128.0922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0bdbd5a-0835-4b72-8d0f-48a5e46ac32c")
+	)
+	(text "1:1  Zin=200k"
+		(exclude_from_sim no)
+		(at 38.1 114.1222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "df2a0773-5689-4e2f-b5ed-73fd4931f3cd")
+	)
+	(text "of"
+		(exclude_from_sim no)
+		(at 343.916 289.56 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfa4b84e-501d-4ce0-a3ba-a388af4916fd")
+	)
+	(text "ERR"
+		(exclude_from_sim no)
+		(at 249.174 122.2502 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify left bottom)
+		)
+		(uuid "e26add3d-ec42-46d9-ac84-04613da13f0a")
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 294.894 281.432 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2c6d158-fb6b-4720-868b-b21442ece6bf")
+	)
+	(text "1mA max"
+		(exclude_from_sim no)
+		(at 167.64 121.7422 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f550329d-c548-4540-9425-1126b775bfa4")
+	)
+	(text_box "Suggested MELF (470k) is Vishay MMB0207MC4703F. Other components without specific MPN are non-critical, frontend R's and OpAmp 4k7 should be 1%."
+		(exclude_from_sim no)
+		(at 236.22 277.0378 0)
+		(size 54.61 12.7)
+		(margins 1.143 1.143 1.143 1.143)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "dd333499-d2ca-4842-9a21-03e0787c7a0b")
 	)
 	(junction
 		(at 78.74 206.8322)
@@ -7182,369 +7596,6 @@
 		)
 		(uuid "f9eacb88-4bc0-4b4c-a0d2-ea4ac5b721ae")
 	)
-	(text_box "Suggested MELF (470k) is Vishay MMB0207MC4703F. Other components without specific MPN are non-critical, frontend R's and OpAmp 4k7 should be 1%."
-		(exclude_from_sim no)
-		(at 236.22 277.0378 0)
-		(size 54.61 12.7)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left top)
-		)
-		(uuid "dd333499-d2ca-4842-9a21-03e0787c7a0b")
-	)
-	(text "${##}"
-		(exclude_from_sim no)
-		(at 347.218 289.56 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f40110e-a8b5-469d-b9cd-edade09ed092")
-	)
-	(text "Date:"
-		(exclude_from_sim no)
-		(at 294.64 289.56 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "13ff0ad0-9d6d-46b9-8cb6-84925383f532")
-	)
-	(text "AMC3330: +/- 1.00Vin, Gain=2"
-		(exclude_from_sim no)
-		(at 193.04 130.6322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "16cf5ed9-8861-4168-a55a-3c71c8889ae7")
-	)
-	(text "fc = 1.61MHz"
-		(exclude_from_sim no)
-		(at 38.1 116.6622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "1cbd0d64-ea7d-4ce1-8d87-ef35b9e51c56")
-	)
-	(text "${CURRENT_DATE}"
-		(exclude_from_sim no)
-		(at 300.99 289.56 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "22bad64a-516f-451b-b492-7b1c099784e6")
-	)
-	(text "Sheet"
-		(exclude_from_sim no)
-		(at 335.28 289.56 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "536cc155-39a5-411a-a76a-a1b34dbc0a44")
-	)
-	(text "5V 30mA"
-		(exclude_from_sim no)
-		(at 314.96 148.4122 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ba48f1e-d798-41a9-abd6-6ef1a2903b75")
-	)
-	(text "A1"
-		(exclude_from_sim no)
-		(at 345.186 286.004 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d03bf88-7f44-42d0-bc4d-cfe6f8910fe7")
-	)
-	(text "Size:"
-		(exclude_from_sim no)
-		(at 294.64 285.75 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f28875e-8764-4c48-9654-453200f793f0")
-	)
-	(text "1000:1  Zin=1.88M"
-		(exclude_from_sim no)
-		(at 38.1 220.8022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "69d3e9bc-6eb1-4c47-a9ff-8463300696d1")
-	)
-	(text "fc = 1.49MHz"
-		(exclude_from_sim no)
-		(at 38.1 152.2222 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "76264e57-7cb3-41c5-924d-25506f60c738")
-	)
-	(text "A3"
-		(exclude_from_sim no)
-		(at 300.99 286.004 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f0db493-71ac-4934-8185-8bb3678a225a")
-	)
-	(text "100:1  Zin=950k"
-		(exclude_from_sim no)
-		(at 38.1 185.2422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "91134f6f-c769-4943-a391-4c4e166915a5")
-	)
-	(text "fc = 916kHz"
-		(exclude_from_sim no)
-		(at 38.1 223.3422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "960f64d5-25c8-4caa-822d-1026afcdd36d")
-	)
-	(text "Mod for Rev A"
-		(exclude_from_sim no)
-		(at 204.724 176.53 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "98d575c3-6302-4983-8cf1-054c5c680f6c")
-	)
-	(text "fc = 1.60MHz"
-		(exclude_from_sim no)
-		(at 38.1 187.7822 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a03f5206-8a81-4b5f-945e-0ba00e18adea")
-	)
-	(text "2x mods for Rev A"
-		(exclude_from_sim no)
-		(at 145.034 173.5582 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b472fb8b-4921-416c-813a-c36685dc8ac7")
-	)
-	(text "10:1  Zin=113k"
-		(exclude_from_sim no)
-		(at 38.1 149.6822 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b58503a5-452b-4703-a0e2-19a180c11ef9")
-	)
-	(text "Shunt Input"
-		(exclude_from_sim no)
-		(at 38.1 78.5622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdcfb620-77d3-4ef9-9634-be3ee8deb1f3")
-	)
-	(text "Revision:"
-		(exclude_from_sim no)
-		(at 335.28 285.75 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf0b2451-8307-40cb-ac41-f3da2ac8f1a6")
-	)
-	(text "${#}"
-		(exclude_from_sim no)
-		(at 341.376 289.56 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4297c85-fbf6-4e43-9593-5aae6ef0a95d")
-	)
-	(text "Signal GND =/= Power GND!"
-		(exclude_from_sim no)
-		(at 331.47 194.1322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc67b6ad-a7cc-43cf-91da-2aad00f3c56a")
-	)
-	(text "PWR"
-		(exclude_from_sim no)
-		(at 258.064 122.2502 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "cdfb685a-c0a0-4557-b531-9122c4402b6e")
-	)
-	(text "AMC3302: +/- 50mVin, Gain=41"
-		(exclude_from_sim no)
-		(at 193.04 128.0922 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0bdbd5a-0835-4b72-8d0f-48a5e46ac32c")
-	)
-	(text "1:1  Zin=200k"
-		(exclude_from_sim no)
-		(at 38.1 114.1222 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "df2a0773-5689-4e2f-b5ed-73fd4931f3cd")
-	)
-	(text "of"
-		(exclude_from_sim no)
-		(at 343.916 289.56 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfa4b84e-501d-4ce0-a3ba-a388af4916fd")
-	)
-	(text "ERR"
-		(exclude_from_sim no)
-		(at 249.174 122.2502 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "e26add3d-ec42-46d9-ac84-04613da13f0a")
-	)
-	(text "${TITLE}"
-		(exclude_from_sim no)
-		(at 294.894 281.432 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2c6d158-fb6b-4720-868b-b21442ece6bf")
-	)
-	(text "1mA max"
-		(exclude_from_sim no)
-		(at 167.64 121.7422 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f550329d-c548-4540-9425-1126b775bfa4")
-	)
 	(label "ISOLDO"
 		(at 173.99 148.4122 0)
 		(effects
@@ -8969,7 +9020,6 @@
 		)
 	)
 	(symbol
-		(lib_name "IsoDiffProbe-altium-import:root_0_SMA_SMD")
 		(lib_id "IsoDiffProbe-altium-import:root_0_SMA_SMD")
 		(at 346.71 181.4322 0)
 		(unit 1)
@@ -15520,4 +15570,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

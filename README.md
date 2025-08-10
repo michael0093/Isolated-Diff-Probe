@@ -4,9 +4,13 @@ By using two 2.54" jumpers on the 2x10 header, you can select between various in
 
 # Design Notes
 The power supply must be isolated from your scope as the scope "GND" of the SMA connector is a 50%VDD bias voltage. 
-The schematic has 3 modifications from the rev A to rev A1 design - a Y1 capacitor and two 1M biasing resistors - see schematic/PCB for location.
-The design was originally done in Altium and then converted to KiCad so appologies that the KiCad sch/pcb may not link up quite right.
-The PCB is marked with an fc of the input circuit, not of the complete probe. The fc of the complete probe is about 300kHz and details can be found in the AMC3330/AMC3302 datasheet.
+The schematic has two modifications from the rev A to rev A2 design - refer to the rev B schematic and follow the notes. The modifications are:
+- Two biasing 1M (AMC3300) or 100k (AMC3302) resistors from near the input selector to HGND
+- Two filtering 33pF (AMC3300) or 3.3nF (AMC3302) capacitors from near the input selector to HGND
+- General note: The PCB is marked with an fc of the input circuit, not of the complete probe. The fc of the complete probe is about 300kHz.
+
+The design was originally done in Altium and then converted to KiCad so appologies that the KiCad sch/pcb may not link up quite right. For that reason there are no propper rev B output files, and also note the rev B PCB still has outstanding changes as noted on the schematic.
+
 Other opamps with GBWP >1MHz or so should perform similarly, the OPA2376 is just what was on hand.
 Based on practical usage, the AMC3302 with a 0R01 shunt works best for currents >=3mA with fc=100kHz. The AMC3330 on 1:1 range works best for voltages >=10mV and fc=300kHz.
 

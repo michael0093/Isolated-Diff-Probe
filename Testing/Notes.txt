@@ -1,4 +1,4 @@
-Changes to the rev A PCB:
+Changes to the rev A PCB to make rev A1:
  * 1nF Y1 capacitor between isolated GNDs avoids some weird noise 'glitches' at higher frequencies mainly on the AMC3302 (other values probably fine)
  * 1M bias resistors from each input to GND avoid clipping of tops of sine, probably due to bias
  * Adding 47uF HXD at input or output caps didn't help.
@@ -18,3 +18,21 @@ Voltage diff probe AMC3330:
  470K on physical sample is the Resistor Today part
  Measured 3dB point (1Vpp input) = 330kHz
  The weirdness noted for AMC3302 is also present for AMC3330 if you have a small signal
+    -- this root cause has been solved in rev B1 see below.
+
+
+*******************************
+Updates for Rev B August 2025: All of these except the diode and 1k shunt input resistors have been applied as mods for the rev A2 design
+
+ * Change C12 and C15 to 33pF to improve frequency response
+ * Updated input filter and bias, adding capacitance to HGND is what solves the "weirdness" observed before and negates the need for the Y1 cap. The Y1 cap is detremental to the higher voltage input options (waveform distortion)
+   * For AMC3300 voltage probe, input filter/bias is: R34.R33=1M. C11,C20,C21=33pF. Added R35,R36 to reduce freq of shunt input (else >>1M target)
+   * For AMC3302 current probe, input filter/bias is: R34.R33=100k. C11,C20,C21=3.3nF
+ * Added anti-parallel diode at power input for crude polarity protection
+ * For AMC3300 with shunt, added series R35,R36=1k and C1=100nF to reduce fc
+
+Rev B1 AMC3302 measured frequency response with sine:
+With 100pF in opamp circuit:
+    large signal on 1R shunt:   4.76V at 1kHz --> 3.36V at 210kHz
+    small signal on 0R01 shunt: 388mV at 1kHz --> 274mV at 230kHz
+After changing to 33pF in opamp circuit: 1R shunt is about 280kHz -- see charts in folder.
